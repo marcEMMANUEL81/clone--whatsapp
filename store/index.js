@@ -1,0 +1,81 @@
+import { createStore } from "vuex";
+
+export default createStore({
+    state: {
+        messageList: [{
+                name: "Marc Emmanuel",
+                userPicture: "https://images.pexels.com/photos/14071949/pexels-photo-14071949.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+                message: "Salut, comment tu vas ?",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "Béké Ogo",
+                userPicture: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "Je t'attend depuis un moment",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "N'dri Othiniel",
+                userPicture: "https://images.pexels.com/photos/15094643/pexels-photo-15094643.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "Ok",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "Aliman Mobio",
+                userPicture: "https://images.pexels.com/photos/15086389/pexels-photo-15086389.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "tu es trop bête 😂😂😂😂",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "Ahiman Cope",
+                userPicture: "https://images.pexels.com/photos/15087415/pexels-photo-15087415.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "Hi 👋",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "Marc Emmanuel",
+                userPicture: "https://images.pexels.com/photos/14071949/pexels-photo-14071949.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+                message: "Salut, comment tu vas ?",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "Béké Ogo",
+                userPicture: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "Je t'attend depuis un moment",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "N'dri Othiniel",
+                userPicture: "https://images.pexels.com/photos/15094643/pexels-photo-15094643.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "Ok",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "Aliman Mobio",
+                userPicture: "https://images.pexels.com/photos/15086389/pexels-photo-15086389.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "tu es trop bête 😂😂😂😂",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+            {
+                name: "Ahiman Cope",
+                userPicture: "https://images.pexels.com/photos/15087415/pexels-photo-15087415.jpeg?auto=compress&cs=tinysrgb&w=800",
+                message: "Hi 👋",
+                status: "envoyé",
+                date: "11/16/19",
+            },
+        ],
+    },
+    getters: {},
+    mutations: {},
+    actions: {},
+    modules: {},
+});
